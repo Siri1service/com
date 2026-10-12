@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Minimal Studio",
+    "slug": "minimal-studio-ecom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.minimalstudio.ecom",
+      "infoPlist": {
+        "NSCameraUsageDescription": "แอปพลิเคชันต้องการเข้าถึงกล้องเพื่อถ่ายภาพสลิปโอนเงินและสแกนบาร์โค้ดพัสดุ",
+        "NSPhotoLibraryUsageDescription": "แอปพลิเคชันต้องการเข้าถึงคลังภาพเพื่อเลือกรูปภาพสลิปการโอนเงินสำหรับตรวจสอบยอด"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#09090b"
+      },
+      "package": "com.minimalstudio.ecom",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
